@@ -42,6 +42,7 @@ jobs:
         coverage xml -o coverage.xml
 
     - name: Validate Codecov configuration
+      if: matrix.os == 'ubuntu-latest'
       run: |
         curl --data-binary @.codecov.yml https://codecov.io/validate | tee codecov_validation
         head -n 1 codecov_validation | grep 'Valid!'
