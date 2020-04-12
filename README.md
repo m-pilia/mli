@@ -1,4 +1,7 @@
 # mli - Shell interface for MATLAB
+[![Actions Status](https://github.com/m-pilia/mli/workflows/Build%20and%20test/badge.svg)](https://github.com/m-pilia/mli/actions?query=workflow%3A"Build+and+test")
+[![Codecov](https://codecov.io/gh/m-pilia/mli/branch/master/graph/badge.svg)](https://codecov.io/gh/m-pilia/mli/branch/master)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/m-pilia/mli/blob/master/LICENSE)
 
 This package implements a cross-platform shell interface for MATLAB.
 
